@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(pictures/background1.avif);
+    background-size: contain;
+}
+
+.container {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.div {
+    margin-bottom: 10px;
+}
+
+.in {
+    color: black;
+}
+
+.p {
+    background-color: aqua;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.in1, .in4 {
+    display: flex;
+    width: 400px;
+    border-bottom: 2px solid black;
+}
+
+.in1>img {
+    width: 150px;
+    margin: 0px 20px 10px 0px;
+}
+
+.in2, .in5 {
+    margin-top: 10px;
+    display: flex;
+    width: 400px;
+    border-bottom: 2px solid black;
+}
+
+.in2>img {
+    width: 150px;
+    margin: 10px 20px 10px 0px;
+}
+
+.in3, .in6 {
+    margin-top: 10px;
+    display: flex;
+    width: 400px;
+}
+
+.in3>img {
+    width: 150px;
+    margin: 10px 20px 10px 0px;
+}
+
+.in4>img {
+    width: 150px;
+    margin: 0px 20px 10px 0px;
+}
+
+.in5>img {
+    width: 150px;
+    margin: 10px 20px 10px 0px;
+}
+
+.in6>img {
+    width: 150px;
+    margin: 10px 20px 10px 0px;
+}
+
+.line {
+    width: 400px;
+    height: 2px;
+    background-color: aqua;
+}
